@@ -1,0 +1,50 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #a346c0;
+}
+
+#userTable {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#userTable thead {
+    background-color: #2d3748;
+    color: #75a2d4;
+}
+
+#userTable th, #userTable td {
+    padding: 16px;
+    text-align: left;
+}
+
+#userTable tbody tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+#userTable tbody tr:nth-child(even) {
+    background-color: #373c68; 
+    color: #ffffff; 
+}
+
+#userTable img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.text-white {
+    color: #ffffff; 
+}
+
+@media (max-width: 768px) {
+    #userTable thead {
+        display: none;
+    }
+    #userTable tr {
+        display: block;
+        margin-bottom: 15px;
+    }
+}
